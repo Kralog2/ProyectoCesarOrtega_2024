@@ -42,9 +42,10 @@
     </div>
     
 
-    <div>
+    <div class="top">
+        <h2>Aviso:</h2>
         <p>En este apartado podrás realizar un cuestionario acerca de los juegos desarrollados por Bethesda, incluso si no son tus favoritos, esto es con el objetivo de recabar información acerca de los distintos tipos de jugadores que existen, y conocer las opiniones de las personas que disfrutan de los juegos de la compañía,y de igual manera de las que no.</p>
-        <p>Toda la información recopilada por este cuestionario no tiene ningún fin comercial y los datos son de uso académico</p>
+        <p>Toda la información recopilada por este cuestionario no tiene ningún fin comercial y los datos son de uso académico.</p>
     </div>
     <div class="form">
         <form action="">
@@ -56,6 +57,21 @@
             <div>
                 <label for="email">Correo</label>
                 <input type="email" name="email" required placeholder="Ingresa tu correo">
+                <br><br>
+            </div>
+            <div>
+                <label for="gameTipe">¿Cual es tu genero de videojuegos favorito?</label>
+                <input type="text" name="gameTipe" placeholder="indica cual es el genero de videojuegos que más te gusta=" required list="lista-tipeGame">
+                <datalist id="lista-tipeGame">
+                    <option value="RPG">Juego de Roll</option>
+                    <option value="Shoter">Juego de disparos</option>
+                    <option value="Simulacion">Juego de Simulacion</option>
+                    <option value="Sandbox">Mundo abierto</option>
+                    <option value="Gacha">Gacha</option>
+                    <option value="RTS">Juego de estrategia en tiempo real</option>
+                    <option value="MOBA">videojuegos multijugador de arena de batalla en línea</option>
+                    <option value="MMO">Multijugador masivo en línea</option>
+                </datalist>
                 <br><br>
             </div>
             <div>
@@ -82,13 +98,23 @@
             </div>
             <div>
                 <label for="favoriteGame">Juego favorito</label>
-                <input type="email" name="favoriteGame" required placeholder="Escribe tu juego favorito" maxlength="200">
+                <input type="text" name="favoriteGame" required placeholder="Escribe tu juego favorito" maxlength="200">
                 <br><br>
             </div>
-            
+            <div>
+                <label for="opinion">Escribe una opinión sobre Bethesda (opcional)</label>
+                <input type="text" name="favoriteGame" placeholder="Da un pequeño mensaje sobre lo que piensas de Bethesda y sus franquicias" maxlength="1500">
+                <br><br>
+            </div>
+            <div class="buttons">
+                <button type="submit" name="submit">Enviar</button>
+                <button type="reset" name="reset">Limpiar</button>
+            </div>
         </form>
     </div>
-
+    <div class="comeHome">
+        <a href="../index.html">Regresar a la pagina principal</a>
+    </div>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/idioma.js"></script>

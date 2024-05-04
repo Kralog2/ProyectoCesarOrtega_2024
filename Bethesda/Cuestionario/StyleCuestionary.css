@@ -1,5 +1,14 @@
+.top{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin: 20px 20px auto;
+    background-color: rgb(173, 187, 181);
+    border-radius: 15px;
+}
+
 p{
-    padding: 20px;
     text-align: justify;
 }
 
@@ -12,7 +21,7 @@ body{
     margin: 20px;
 }
 .titulo img{
-    width: 300px;
+    width: 400px;
 }
 form{
     background-color: #fff;
@@ -93,4 +102,24 @@ a{
 
 .toggle{
     visibility: visible;
+}
+.buttons{
+    text-align: center;
+}
+button{
+    background-color: rgb(238, 234, 220);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+button:hover{
+    background-color: rgb(219, 219, 219);
+}
+.comeHome{
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
 }
