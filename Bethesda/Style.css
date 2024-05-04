@@ -140,6 +140,7 @@ a{
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
 }
 .fallout h3{
     text-align: start;
@@ -162,6 +163,7 @@ a{
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
 }
 .doom img{
     float: right;
@@ -175,4 +177,50 @@ a{
     text-align: justify;
     margin: 5px;
 }
-
+.elderScrolls{
+    background-color: #fff;
+    margin: 20px 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
+}
+.elderScrolls img{
+    float: right;
+    width: 200px;
+    margin: 15px;
+}
+.elderScrolls h3{
+    text-align: start;
+}
+.elderScrolls p{
+    text-align: justify;
+    margin: 5px;
+}
+.wolfenstein{
+    background-color: #fff;
+    margin: 20px 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
+}
+.wolfenstein img{
+    float: right;
+    width: 200px;
+    margin: 15px;
+}
+.wolfenstein h3{
+    text-align: start;
+}
+.wolfenstein p{
+    text-align: justify;
+    margin: 5px;
+}
+.quizRedirect{
+    background-color: #fff;
+    margin: 20px 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
