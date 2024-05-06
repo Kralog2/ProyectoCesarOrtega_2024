@@ -13,28 +13,7 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <div class="translate">
-        <a href="#" id="idioma" class="idioma">
-            <img src="recursos/banderas/mexico.png" alt="icono de bandera">
-            <img src="recursos/banderas/buttondown.png" alt="icono bottom">
-        </a>
-        <ul id="idiomas" class="idiomas">
-            <li class="opcion">
-                <a href="index.html">
-                    <img src="recursos/banderas/mexico.png" alt="icono de bandera">
-                    <span>Español</span>
-                </a>
-            </li>
-            <li class="opcion">
-                <a href="indexEN.html">
-                    <img src="recursos/banderas/usa.png" alt="">
-                    <span>English</span>
-                </a>
-            </li>
-        </ul>
-
-    </div>
-    <div class="encabezado">
+<div class="encabezado">
         <table>
             <thead>
                 <tr>
@@ -45,42 +24,38 @@
             </thead>
         </table>
     </div>
+
+    <div class="translate">
+        <a href="#" id="idioma" class="idioma">
+            <img src="recursos/banderas/mexico.png" alt="icono de bandera">
+            <img src="recursos/banderas/buttondown.png" alt="icono bottom">
+        </a>
+        <ul id="idiomas" class="idiomas">
+            <li class="opcion">
+                <a href="index.php">
+                    <img src="recursos/banderas/mexico.png" alt="icono de bandera">
+                    <span>Español</span>
+                </a>
+            </li>
+            <li class="opcion">
+                <a href="indexEN.php">
+                    <img src="recursos/banderas/usa.png" alt="">
+                    <span>English</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    
+    <div class="empresa">
+        <h3>¿Quiénes son Bethesda?</h3>
+            <img src="recursos/media/bethesdalogo2.png" alt="Logo de Bethesda">
+            <p>Desde hace dos décadas, Bethesda Softworks ha sido una compañía desarrolladora y distribuidora de contenidos para el entretenimiento interactivo, principalmente videojuegos para consolas y ordenadores. Fue fundada en 1986 por Christopher Weaver en Bethesda (Maryland), y su sede fue posteriormente desplazada a Rockville (Maryland) en 1990. En 1999, Weaver, junto con su socio Robert A. Altman, fundó ZeniMax Media, quedando Bethesda como filial de dicha empresa</p>
+            <p>Es conocida por sus videojuegos de simulación deportiva, de acción y de rol. Algunos de sus trabajos más conocidos son los videojuegos de la serie The Elder Scrolls, además de otros como DOOM, Fallout y Wolfenstein.</p>
+            <p>Bethesda fue reconocida desde su creación por el desarrollo del primer videojuego de deportes basado en un motor de físicas, Gridiron!, en 1986 para Atari ST, Commodore Amiga y Commodore 64/128. Sus primeros trabajos fueron bien recibidos por parte de la prensa especializada; por ejemplo, en diversos análisis del videojuego Wayne Gretzky Hockey, se le cataloga como «un juego excelente» o, en el caso del análisis de Amiga Computing, «la simulación deportiva más precisa y divertida que he tenido el placer de jugar». La empresa es muy conocida por crear la serie de videojuegos de rol The Elder Scrolls, en base al trabajo original de Julian Lefay. El primer capítulo de la serie, denominado The Elder Scrolls: Arena, fue lanzado en 1994. A partir de ese momento, gracias al éxito cosechado, se publicaron numerosos videojuegos relacionados. Las secuelas directas, Daggerfall, Morrowind, Oblivion, y Skyrim fueron publicadas en 1996, 2002, 2006 y 2011, respectivamente. Además, la serie ha tenido varios spin-offs relacionados: An Elder Scrolls Legend: Battlespire en 1997, The Elder Scrolls Adventures: Redguard en 1998 y The Elder Scrolls Travels: Shadowkey en 2004. El estudio también es conocido por publicar títulos basados en franquicias populares de películas, como The Terminator, Star Trek, Piratas del Caribe o Mad Max.</p>
+            <p>En 2004, Bethesda Softworks adquirió la serie de videojuegos de rol Fallout, propiedad hasta el momento de Interplay Productions, traspasando el desarrollo de Fallout 3 al estudio interno Bethesda Game Studios. El videojuego fue finalmente lanzado el 28 de octubre de 2008. Al año siguiente desde su lanzamiento, fueron publicadas cinco expansiones de contenido para dicho videojuego: Operation: Anchorage, The Pitt, Broken Steel, Point Lookout, y Mothership Zeta. El 24 de junio de 2009, ZeniMax Media, empresa matriz de Bethesda, adquirió el estudio de desarrollo id Software, cuyos títulos, incluyendo Rage, serían publicados por Bethesda Softworks a partir de ese momento.</p>
+    </div>
     <div>
-        <table class="tabla">
-            <tr>
-                <td class="redes">
-                    <ul>
-                        <li>Mis redes</li>
-                        <li>
-                            <a href="https://www.facebook.com/profile.php?id=100067046030881">
-                                <img src="recursos/media/Logo_de_Facebook.png" alt="Logo de facebook">
-                                facebook
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/kralog2/">
-                                <img src="recursos/media/Instagram.png" alt="Logo de Instagram">
-                                Instagram
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Kralog2/ProyectoCesarOrtega_2024">
-                                <img src="recursos/media/GitHub.png" alt="Logo de GitHub">
-                                GitHub
-                            </a>
-                        </li>
-                    </ul>
-                </td>
-                <td class="empresa">
-                    <h3>¿Quiénes son Bethesda?</h3>
-                    <img src="recursos/media/bethesdalogo2.png" alt="Logo de Bethesda">
-                    <p>Desde hace dos décadas, Bethesda Softworks ha sido una compañía desarrolladora y distribuidora de contenidos para el entretenimiento interactivo, principalmente videojuegos para consolas y ordenadores. Fue fundada en 1986 por Christopher Weaver en Bethesda (Maryland), y su sede fue posteriormente desplazada a Rockville (Maryland) en 1990. En 1999, Weaver, junto con su socio Robert A. Altman, fundó ZeniMax Media, quedando Bethesda como filial de dicha empresa</p>
-                    <p>Es conocida por sus videojuegos de simulación deportiva, de acción y de rol. Algunos de sus trabajos más conocidos son los videojuegos de la serie The Elder Scrolls, además de otros como DOOM, Fallout y Wolfenstein.</p>
-                    <p>Bethesda fue reconocida desde su creación por el desarrollo del primer videojuego de deportes basado en un motor de físicas, Gridiron!, en 1986 para Atari ST, Commodore Amiga y Commodore 64/128. Sus primeros trabajos fueron bien recibidos por parte de la prensa especializada; por ejemplo, en diversos análisis del videojuego Wayne Gretzky Hockey, se le cataloga como «un juego excelente» o, en el caso del análisis de Amiga Computing, «la simulación deportiva más precisa y divertida que he tenido el placer de jugar». La empresa es muy conocida por crear la serie de videojuegos de rol The Elder Scrolls, en base al trabajo original de Julian Lefay. El primer capítulo de la serie, denominado The Elder Scrolls: Arena, fue lanzado en 1994. A partir de ese momento, gracias al éxito cosechado, se publicaron numerosos videojuegos relacionados. Las secuelas directas, Daggerfall, Morrowind, Oblivion, y Skyrim fueron publicadas en 1996, 2002, 2006 y 2011, respectivamente. Además, la serie ha tenido varios spin-offs relacionados: An Elder Scrolls Legend: Battlespire en 1997, The Elder Scrolls Adventures: Redguard en 1998 y The Elder Scrolls Travels: Shadowkey en 2004. El estudio también es conocido por publicar títulos basados en franquicias populares de películas, como The Terminator, Star Trek, Piratas del Caribe o Mad Max.</p>
-                    <p>En 2004, Bethesda Softworks adquirió la serie de videojuegos de rol Fallout, propiedad hasta el momento de Interplay Productions, traspasando el desarrollo de Fallout 3 al estudio interno Bethesda Game Studios. El videojuego fue finalmente lanzado el 28 de octubre de 2008. Al año siguiente desde su lanzamiento, fueron publicadas cinco expansiones de contenido para dicho videojuego: Operation: Anchorage, The Pitt, Broken Steel, Point Lookout, y Mothership Zeta. El 24 de junio de 2009, ZeniMax Media, empresa matriz de Bethesda, adquirió el estudio de desarrollo id Software, cuyos títulos, incluyendo Rage, serían publicados por Bethesda Softworks a partir de ese momento.</p>
-                </td>
-            </tr>
-        </table>
         <table class="tabla2">
             <tr>
                 <td class="fallout">
@@ -110,13 +85,44 @@
         </table>
     </div>
     <footer>
-        <div class="quizRedirect">
-            <h3>Contesta nuestro cuestionario</h3>
-            <a href="Cuestionario/index.html">Puedes acceder a travez de este link</a>
-            <p>Esta es la parte más importante del proyecto</p>
-            <h4>Aviso:</h4>
-            <p>Toda la información no ha sido recopilada por mí, la puedes encontrar de igual manera en Wikipedia</p>
-        </div>
+        <table class="tabla">
+            <tr>
+                <td>
+                    <div class="quizRedirect">
+                        <h3>Contesta nuestro cuestionario</h3>
+                        <a href="Cuestionario/index.php">Puedes acceder a travez de este link</a>
+                        <p>Esta es la parte más importante del proyecto</p>
+                        <h4>Aviso:</h4>
+                        <p>Toda la información no ha sido recopilada por mí, la puedes encontrar de igual manera en Wikipedia</p>
+                    </div>
+                </td>
+                <td class="redes">
+                    <ul>
+                        <li><h4>Mis Redes</h4></li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100067046030881">
+                                <img src="recursos/media/Logo_de_Facebook.png" alt="Logo de facebook">
+                                facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/kralog2/">
+                                <img src="recursos/media/Instagram.png" alt="Logo de Instagram">
+                                Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Kralog2/ProyectoCesarOrtega_2024">
+                                <img src="recursos/media/GitHub.png" alt="Logo de GitHub">
+                                GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </td>
+
+            </tr>
+        </table>
+        
     </footer>
     <script type="text/javascript" src="Cuestionario/js/materialize.js"></script>
     <script src="js/idioma.js"></script>

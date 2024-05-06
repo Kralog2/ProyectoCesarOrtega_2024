@@ -1,0 +1,220 @@
+body{
+    background-color: rgb(241, 218, 188);
+}
+.encabezado{
+    padding: 20px;
+    margin: 0px 20px auto;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    min-width: 530px;
+    width: auto;
+}
+
+.encabezado img{
+    width: 150px;
+    margin: auto;
+    background-color: #fff;
+}
+.encabezado th{
+    text-align: end;
+    padding-right: 30px;
+}
+.encabezado h1{
+    font-size: 25px;
+    text-align: center;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.translate{
+    justify-content: end;
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+.idioma{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgb(219, 219, 219);
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.idioma:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+.idiomas{
+    position: absolute;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+}
+.idiomas li{
+    padding: 5px;
+    width: 100%;
+}
+.idioma li a{
+    display: block;
+    padding: 10px;
+    font-size: 10px;
+    color: rgb(85, 85, 85);
+}
+
+.idioma li a:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+.idioma li img{
+    border-radius: 50%;
+}
+
+.toggle{
+    visibility: visible;
+}
+
+.empresa{
+    background-color: #fff;
+    margin: 20px 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    width: auto;
+}
+.empresa p{
+    text-align: justify;
+    margin: 5px;
+}
+.empresa h3{
+    text-align: start;
+}
+.empresa img{
+    float: left;
+    width: 300px;
+    margin: 15px;
+}
+.tabla{
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    width: auto;
+}
+.tabla2 tr{
+    margin: 20px 20px auto;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    width: auto;
+}
+.fallout{
+    background-color: #fff;
+    margin: 20px 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
+}
+.fallout h3{
+    text-align: start;
+}
+
+.fallout p{
+    text-align: justify;
+}
+.fallout img{
+    float: right;
+    width: 150px;
+    margin: 15px;
+}
+.redes{
+    min-width: 150px;
+    max-width: 200px;
+    align-items: end;
+}
+.redes li{
+    padding: 5px;
+}
+.doom{
+    background-color: #fff;
+    margin: 20px 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
+}
+.doom img{
+    float: right;
+    width: 140px;
+    margin: 15px;
+}
+.doom h3{
+    text-align: start;
+}
+.doom p{
+    text-align: justify;
+    margin: 5px;
+}
+.elderScrolls{
+    background-color: #fff;
+    margin: 20px 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
+}
+.elderScrolls img{
+    float: right;
+    width: 200px;
+    margin: 15px;
+}
+.elderScrolls h3{
+    text-align: start;
+}
+.elderScrolls p{
+    text-align: justify;
+    margin: 5px;
+}
+.wolfenstein{
+    background-color: #fff;
+    margin: 20px 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
+}
+.wolfenstein img{
+    float: right;
+    width: 200px;
+    margin: 15px;
+}
+.wolfenstein h3{
+    text-align: start;
+}
+.wolfenstein p{
+    text-align: justify;
+    margin: 5px;
+}
+.quizRedirect{
+    padding-right: 20px;
+    padding-left: 20px;
+}

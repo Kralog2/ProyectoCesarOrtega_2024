@@ -123,3 +123,25 @@ button:hover{
     margin: 20px;
     padding: 10px;
 }
+.error{
+    position: absolute;
+    top: 50px;
+    color: red;
+    font-size: 20px;
+    background-color: rgb(238, 234, 220);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.success{
+    position: absolute;
+    top: 50px;
+    font-size: 20px;
+    background-color: rgb(238, 234, 220);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    
+}

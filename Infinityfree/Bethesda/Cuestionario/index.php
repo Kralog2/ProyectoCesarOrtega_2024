@@ -21,13 +21,13 @@
         </a>
         <ul id="idiomas" class="idiomas">
             <li class="opcion">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="../recursos/banderas/mexico.png" alt="icono de bandera">
                     <span>Español</span>
                 </a>
             </li>
             <li class="opcion">
-                <a href="indexEN.html">
+                <a href="indexEN.php">
                     <img src="../recursos/banderas/usa.png" alt="">
                     <span>English</span>
                 </a>
@@ -48,7 +48,7 @@
         <p>Toda la información recopilada por este cuestionario no tiene ningún fin comercial y los datos son de uso académico.</p>
     </div>
     <div class="form">
-        <form action="./enviarC.php" method="post">
+        <form method="post" autocomplete="off">
             <div>
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" required placeholder="Ingresa tu nombre o apodo" maxlength="50">
@@ -107,13 +107,18 @@
                 <br><br>
             </div>
             <div class="buttons">
-                <button type="submit" name="submit">Enviar</button>
-                <button type="reset" name="reset">Limpiar</button>
+                <input name="send" type="submit" value="enviar">
+                <button type="reset" name="reset">Reset</button>
             </div>
         </form>
+
+        <?php
+            include("send.php");
+        ?>
+
     </div>
     <div class="comeHome">
-        <a href="../index.html">Regresar a la pagina principal</a>
+        <a href="../index.php">Regresar a la pagina principal</a>
     </div>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
