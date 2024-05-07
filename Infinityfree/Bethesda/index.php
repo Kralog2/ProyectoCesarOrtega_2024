@@ -92,6 +92,7 @@
                         <h3>Contesta nuestro cuestionario</h3>
                         <a href="Cuestionario/index.php">Puedes acceder a travez de este link</a>
                         <p>Esta es la parte más importante del proyecto</p>
+                        <a href="Cuestionario/deleteuser.php">Elimina tu registro aquí</a>
                         <h4>Aviso:</h4>
                         <p>Toda la información no ha sido recopilada por mí, la puedes encontrar de igual manera en Wikipedia</p>
                     </div>

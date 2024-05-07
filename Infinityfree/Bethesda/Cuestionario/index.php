@@ -107,8 +107,8 @@
                 <br><br>
             </div>
             <div class="buttons">
-                <input name="send" type="submit" value="enviar">
-                <button type="reset" name="reset">Reset</button>
+                <input name="send" type="submit" class="btn" value="Enviar">
+                <input type="reset" name="reset" class="btn" value="Reset"></button>
             </div>
         </form>
 
@@ -119,6 +119,8 @@
     </div>
     <div class="comeHome">
         <a href="../index.php">Regresar a la pagina principal</a>
+        <br><br>
+        <a href="deleteuser.php">Elimina tu registro aquí</a>
     </div>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>

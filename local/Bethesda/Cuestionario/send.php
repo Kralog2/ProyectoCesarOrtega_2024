@@ -32,7 +32,10 @@ include ("conexion.php");
                 /*echo"<h3>Tu informacion ha sido enviada</h3>";
                 echo "<a href='./index.html'>Nuevo registro</a>";*/
                 ?>
-                    <h3 class="success">Tu informacion ha sido enviada</h3>
+                    <div class="success">
+                        <h3>Su información ha sido enviada</h3>
+                        <a href="deleteuser.php">Si lo desea, puede borrar su registro aquí</a>
+                    </div>
                 <?php
             }else{
                 /*echo"<h3>Ocurrio un error</h3>";

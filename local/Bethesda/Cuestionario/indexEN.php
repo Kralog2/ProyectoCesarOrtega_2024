@@ -78,7 +78,7 @@
                 <label for="likeBethesdagames">Do you like Bethesda games?</label>
                 <input type="text" name="likeBethesdagames" placeholder="Indicate whether or not you like Bethesd gamesa" required list="lista-like">
                 <datalist id="lista-like">
-                    <option value="Yes">Yes</option>
+                    <option value="Si">Yes</option>
                     <option value="No">No</option>
                 </datalist>
                 <br><br>
@@ -107,18 +107,20 @@
                 <br><br>
             </div>
             <div class="buttons">
-                <input name="send" type="submit" class="btn" value="enviar">
-                <button type="reset" name="reset">Reset</button>
+                <input name="send" type="submit" class="btn" value="Send">
+                <input type="reset" name="reset" class="btn" value="Reset"></button>
             </div>
         </form>
 
             <?php
-                include("send.php");
+                include("sendEN.php");
             ?>
 
     </div>
     <div class="comeHome">
         <a href="../indexEN.php">Return to Home page</a>
+        <br><br>
+        <a href="deleteuserEN.php">Unregister here</a>
     </div>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/idioma.js"></script>

@@ -21,7 +21,7 @@ include ("conexion.php");
     $count =mysqli_num_rows($encontrado);
         if($count==1){
             ?>
-                <h3 class ="error">Este Correo ya ha sido registrado</h3>
+                <h3 class ="error">This e-mail has already been registered</h3>
             <?php
         }else{
             $consulta = "INSERT INTO respuesta(nombre,email,gameTipe,likeBethesdagames,BethesdaSagas,favoriteGame,opinion)
@@ -33,9 +33,10 @@ include ("conexion.php");
                 echo "<a href='./index.html'>Nuevo registro</a>";*/
                 ?>
                     <div class="success">
-                        <h3>Su información ha sido enviada</h3>
-                        <a href="deleteuser.php">Si lo desea, puede borrar su registro aquí</a>
+                        <h3>Your information has been sent</h3>
+                        <a href="deleteuserEN.php">If you want you can delete your registration here</a>
                     </div>
+                    
                 <?php
             }else{
                 /*echo"<h3>Ocurrio un error</h3>";
@@ -43,7 +44,7 @@ include ("conexion.php");
                 
                 
                 ?>
-                    <h3 class="error">Ocurrio un error</h3>
+                    <h3 class="error">An error occurred</h3>
                 <?php
             }
         }
