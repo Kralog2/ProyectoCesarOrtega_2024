@@ -1,13 +1,16 @@
+<?php
+    require "conexion.php";
+    mysqli_set_charset($conexion,'utf8');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eliminar Usuario</title>
+    <title>Show</title>
     <link rel="shortcut icon" href="../recursos/media/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="StyleCuestionary.css">
 </head>
 <body>
@@ -18,55 +21,70 @@
         </a>
         <ul id="idiomas" class="idiomas">
             <li class="opcion">
-                <a href="deleteuser.php">
+                <a href="ShowDB.php">
                     <img src="../recursos/banderas/mexico.png" alt="icono de bandera">
                     <span>Español</span>
                 </a>
             </li>
             <li class="opcion">
-                <a href="deleteuserEN.php">
+                <a href="ShowDBEN.php">
                     <img src="../recursos/banderas/usa.png" alt="">
                     <span>English</span>
                 </a>
             </li>
         </ul>
-
     </div>
-
     <div class="titulo">
         <img src="../recursos/media/1200px-Bethesda_Game_Studios_logo.svg.png" alt="Logo de Bethesda">
-        <h1>Eliminar Registro</h1>
+        <h1>Datos Recopilados</h1>
     </div>
     
 
     <div class="top">
         <h2>Aviso:</h2>
-        <p>En esta sección puede eliminar su registro en nuestra base de datos.</p>
+        <p>En este apartado podrás ver la cantidad de registros que tiene el cuestionario</p>
+        <p>Toda la información recopilada por este cuestionario no tiene ningún fin comercial y los datos son de uso académico.</p>
     </div>
-    <div class="form">
-        <form method="post" autocomplete="off">
-            <label for="email">Introduzca su dirección de correo electrónico</label>
-            <input type="text" name="email" placeholder="Ingresa el correo con el que registraste tu respuesta">
-            
-            <div class="buttons">
-                <input name="delete" type="submit" class="btn" value="Eliminar">
-            </div>
-            
 
-            <?php
-                include("userdrop.php");
-            ?>
-        </form>
+    <div style="background-color: #fff; padding-left: 30px; padding-right: 30px; padding-top: 5px; padding-bottom: 20px; margin: 20px 20px auto; border-radius: 15px; width: auto;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Genero favorito</th>
+                    <th>Saga favorita</th>
+                    <th>Juego favorito</th>
+                    <th>opinion</th>
+                </tr>
+            </thead>
+        <?php
+        $consulta_sql="SELECT * FROM respuesta";
+        $result = $conexion->query($consulta_sql);
+        $count = mysqli_num_rows($result);
+  
+        while($row = mysqli_fetch_array($result)){
+        ?>
+            <tbody>
+                <tr>
+                    <td><?php echo $row['nombre'] ?></td>
+                    <td><?php echo $row['gameTipe'] ?></td>
+                    <td><?php echo $row['BethesdaSagas'] ?></td>
+                    <td><?php echo $row['favoriteGame'] ?></td>
+                    <td><?php echo $row['opinion'] ?></td>
+                </tr>
+            </tbody>
+        <?php
+        }
+        ?>
+        </table>
     </div>
     <div class="comeHome">
         <a href="../index.php">Regresar a la pagina principal</a>
         <br>
         <a href="index.php">Realizar un nuevo registro</a>
-        <br>
-        <a href="ShowDB.php">Qieres ver los demas registros da click aquí</a>
     </div>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/idioma.js"></script>
-        
+    
 </body>
 </html>

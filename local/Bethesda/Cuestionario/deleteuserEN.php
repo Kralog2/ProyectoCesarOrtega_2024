@@ -49,20 +49,22 @@
     <div class="form">
         <form method="post" autocomplete="off">
             <label for="email">Enter your email address</label>
-            <input type="text" name="Ingresa el correo con el que registraste tu respuesta">
+            <input type="text" name="email" placeholder="Ingresa el correo con el que registraste tu respuesta">
             
             <div class="buttons">
-                <input name="delete" type="submit" value="Eliminar">
+                <input name="delete" type="submit" class="btn" value="Delete">
             </div>
             
 
             <?php
-                include("userdrop.php");
+                include("userdropEN.php");
             ?>
         </form>
     </div>
     <div class="comeHome">
         <a href="../indexEN.php">Return to Home page</a>
+        <br>
+        <a href="indexEN.php">Make a new registration</a>
     </div>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/idioma.js"></script>

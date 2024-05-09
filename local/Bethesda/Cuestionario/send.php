@@ -35,6 +35,8 @@ include ("conexion.php");
                     <div class="success">
                         <h3>Su información ha sido enviada</h3>
                         <a href="deleteuser.php">Si lo desea, puede borrar su registro aquí</a>
+                        <br>
+                        <a href="ShowDB.php">Qieres ver los demas registros da click aquí</a>
                     </div>
                 <?php
             }else{

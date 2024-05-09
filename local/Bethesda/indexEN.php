@@ -90,7 +90,10 @@
                 <div class="quizRedirect">
                     <h3>Take our questionnaire</h3>
                     <a href="Cuestionario/indexEN.php">You can access this link</a>
+                    <br><br>
                     <p>This is the most important part of the project</p>
+                    <br><br>
+                    <a href="Cuestionario/deleteuserEN.php">Unregister here</a>
                     <h4>Warning:</h4>
                     <p>All the information has not been compiled by me, you can find it in Wikipedia as well.</p>
                 </div>

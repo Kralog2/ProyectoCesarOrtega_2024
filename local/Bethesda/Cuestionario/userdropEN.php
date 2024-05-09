@@ -3,7 +3,7 @@ require "conexion.php";
 if (isset($_POST['delete'])){
 
     mysqli_set_charset($conexion,'utf8');
-    $registroEliminado = $_POST['email'];
+    $registroEliminado = trim($_POST['email']);
 
     $buscarusuario = "SELECT * FROM respuesta WHERE email = '$registroEliminado'";
     $encontrado = $conexion -> query($buscarusuario);
@@ -15,20 +15,15 @@ if (isset($_POST['delete'])){
 
         mysqli_query($conexion, $dbdelete);
         mysqli_close($conexion);
-        header('Location: deleteuser.php');
+        header('Location: deleteuserEN.php');
 
         ?>
-            <div  class="success">
-                <h3>Tu informacion ha sido eliminada</h3>
-                <br>
-                <a href="ShowDB.php">Qieres ver los demas registros da click aquí</a>
-            </div>
-            
+            <h3 class="success">Your information has been deleted</h3>
         <?php
 
     }else{
         ?>
-            <h3 class="error">El correo no ha sido registrado</h3>
+            <h3 class="error">Mail has not been registered</h3>
         <?php
     }
 

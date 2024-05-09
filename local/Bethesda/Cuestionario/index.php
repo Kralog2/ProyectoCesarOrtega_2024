@@ -121,6 +121,8 @@
         <a href="../index.php">Regresar a la pagina principal</a>
         <br><br>
         <a href="deleteuser.php">Elimina tu registro aquí</a>
+        <br>
+        <a href="ShowDB.php">Qieres ver los demas registros da click aquí</a>
     </div>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
