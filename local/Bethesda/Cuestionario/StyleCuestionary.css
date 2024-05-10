@@ -70,7 +70,7 @@ a{
 
 .idiomas{
     position: absolute;
-    top: 35px;
+    top: 100px;
     display: flex;
     flex-direction: column;
     background-color: aqua;
@@ -143,9 +143,22 @@ button:hover{
     padding: 5px;
     border-radius: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-    
 }
-
 .success h3{
     font-size: 25px;
+}
+.menu{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 0px 0px 0px;
 }

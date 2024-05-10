@@ -13,7 +13,12 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    
+    <nav class="menu">
+        <a href="indexEN.php">Home</a>
+        <a href="Cuestionario/indexEN.php">Questionnaire</a>
+        <a href="Cuestionario/deleteuserEN.php">Delete record</a>
+        <a href="Cuestionario/ShowDBEN.php">View records</a>
+    </nav> 
     <div class="encabezado">
         <table>
             <thead>
@@ -90,7 +95,12 @@
                 <div class="quizRedirect">
                     <h3>Take our questionnaire</h3>
                     <a href="Cuestionario/indexEN.php">You can access this link</a>
+                    <br><br>
                     <p>This is the most important part of the project</p>
+                    <br>
+                    <a href="Cuestionario/deleteuserEN.php">Unregister here</a>
+                    <br>
+                    <a href="Cuestionario/ShowDBEN.php">If you want to see the other records click here</a>
                     <h4>Warning:</h4>
                     <p>All the information has not been compiled by me, you can find it in Wikipedia as well.</p>
                 </div>

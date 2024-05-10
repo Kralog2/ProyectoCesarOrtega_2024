@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="StyleCuestionary.css">
 </head>
 <body>
+    <nav class="menu">
+        <a href="../indexEN.php">Home</a>
+        <a href="indexEN.php">Questionnaire</a>
+        <a href="deleteuserEN.php">Delete record</a>
+        <a href="ShowDBEN.php">View records</a>
+    </nav>
     <div class="translate">
         <a href="#" id="idioma" class="idioma">
             <img src="../recursos/banderas/usa.png" alt="icono de bandera">
@@ -65,6 +71,8 @@
         <a href="../indexEN.php">Return to Home page</a>
         <br>
         <a href="indexEN.php">Make a new registration</a>
+        <br>
+        <a href="ShowDBEN.php">If you want to see the other records click here</a>
     </div>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/idioma.js"></script>

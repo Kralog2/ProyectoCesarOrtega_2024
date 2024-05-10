@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+    <nav class="menu">
+        <a href="index.php">Inicio</a>
+        <a href="Cuestionario/index.php">Cuestionario</a>
+        <a href="Cuestionario/deleteuser.php">Eliminar registro</a>
+        <a href="Cuestionario/ShowDB.php">Ver registros</a>
+    </nav>
 <div class="encabezado">
         <table>
             <thead>
@@ -93,6 +99,8 @@
                         <a href="Cuestionario/index.php">Puedes acceder a travez de este link</a>
                         <p>Esta es la parte más importante del proyecto</p>
                         <a href="Cuestionario/deleteuser.php">Elimina tu registro aquí</a>
+                        <br>
+                        <a href="ShowDB.php">Qieres ver los demas registros da click aquí</a>
                         <h4>Aviso:</h4>
                         <p>Toda la información no ha sido recopilada por mí, la puedes encontrar de igual manera en Wikipedia</p>
                     </div>

@@ -35,6 +35,8 @@ include ("conexion.php");
                     <div class="success">
                         <h3>Your information has been sent</h3>
                         <a href="deleteuserEN.php">If you want you can delete your registration here</a>
+                        <br>
+                        <a href="ShowDBEN.php">If you want to see the other records click here</a>
                     </div>
                     
                 <?php

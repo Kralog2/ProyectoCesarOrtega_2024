@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+    <nav class="menu">
+        <a href="index.php">Inicio</a>
+        <a href="Cuestionario/index.php">Cuestionario</a>
+        <a href="Cuestionario/deleteuser.php">Eliminar registro</a>
+        <a href="Cuestionario/ShowDB.php">Ver registros</a>
+    </nav>
 <div class="encabezado">
         <table>
             <thead>

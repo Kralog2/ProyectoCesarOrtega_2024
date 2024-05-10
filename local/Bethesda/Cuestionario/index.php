@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="StyleCuestionary.css">
 </head>
 <body>
+<nav  class="menu">
+    <a href="../index.php">Inicio</a>
+    <a href="index.php">Cuestionario</a>
+    <a href="deleteuser.php">Eliminar registro</a>
+    <a href="ShowDB.php">Ver registros</a>
+</nav>
     <div class="translate">
         <a href="#" id="idioma" class="idioma">
             <img src="../recursos/banderas/mexico.png" alt="icono de bandera">

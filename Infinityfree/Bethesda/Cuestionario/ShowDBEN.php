@@ -14,15 +14,15 @@
     <link rel="stylesheet" href="StyleCuestionary.css">
 </head>
 <body>
-<nav  class="menu">
-    <a href="../index.php">Inicio</a>
-    <a href="index.php">Cuestionario</a>
-    <a href="deleteuser.php">Eliminar registro</a>
-    <a href="ShowDB.php">Ver registros</a>
-</nav>
+    <nav class="menu">
+        <a href="../indexEN.php">Home</a>
+        <a href="indexEN.php">Questionnaire</a>
+        <a href="deleteuserEN.php">Delete record</a>
+        <a href="ShowDBEN.php">View records</a>
+    </nav>
     <div class="translate">
         <a href="#" id="idioma" class="idioma">
-            <img src="../recursos/banderas/mexico.png" alt="icono de bandera">
+            <img src="../recursos/banderas/usa.png" alt="icono de bandera">
             <img src="../recursos/banderas/buttondown.png" alt="icono bottom">
         </a>
         <ul id="idiomas" class="idiomas">
@@ -42,25 +42,25 @@
     </div>
     <div class="titulo">
         <img src="../recursos/media/1200px-Bethesda_Game_Studios_logo.svg.png" alt="Logo de Bethesda">
-        <h1>Datos Recopilados</h1>
+        <h1>Data Collected</h1>
     </div>
     
 
     <div class="top">
-        <h2>Aviso:</h2>
-        <p>En este apartado podrás ver la cantidad de registros que tiene el cuestionario</p>
-        <p>Toda la información recopilada por este cuestionario no tiene ningún fin comercial y los datos son de uso académico.</p>
+        <h2>Warning:</h2>
+        <p>In this section you will be able to see the number of records in the questionnaire.</p>
+        <p>All information collected by this questionnaire is for non-commercial purposes and the data is for academic use only.</p>
     </div>
 
     <div style="background-color: #fff; padding-left: 30px; padding-right: 30px; padding-top: 5px; padding-bottom: 20px; margin: 20px 20px auto; border-radius: 15px; width: auto;">
         <table>
             <thead>
                 <tr>
-                    <th>Nombre</th>
-                    <th>Genero favorito</th>
-                    <th>Saga favorita</th>
-                    <th>Juego favorito</th>
-                    <th>opinion</th>
+                    <th>Name</th>
+                    <th>Favorite genre</th>
+                    <th>Favorite saga</th>
+                    <th>Favorite game</th>
+                    <th>feedback</th>
                 </tr>
             </thead>
         <?php
@@ -85,9 +85,9 @@
         </table>
     </div>
     <div class="comeHome">
-        <a href="../index.php">Regresar a la pagina principal</a>
+        <a href="../indexEN.php">Back to main page</a>
         <br>
-        <a href="index.php">Realizar un nuevo registro</a>
+        <a href="indexEN.php">Make a new entry</a>
     </div>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/idioma.js"></script>

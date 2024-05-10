@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="StyleCuestionary.css">
 </head>
 <body>
+<nav  class="menu">
+    <a href="../index.php">Inicio</a>
+    <a href="index.php">Cuestionario</a>
+    <a href="deleteuser.php">Eliminar registro</a>
+    <a href="ShowDB.php">Ver registros</a>
+</nav>
     <div class="translate">
         <a href="#" id="idioma" class="idioma">
             <img src="../recursos/banderas/mexico.png" alt="icono de bandera">
@@ -49,7 +55,7 @@
             <input type="text" name="email" placeholder="Ingresa el correo con el que registraste tu respuesta">
             
             <div class="buttons">
-                <input name="delete" type="submit" value="Eliminar">
+                <input name="delete" type="submit" class="btn" value="Eliminar">
             </div>
             
 
@@ -61,7 +67,9 @@
     <div class="comeHome">
         <a href="../index.php">Regresar a la pagina principal</a>
         <br>
-        <a href="index.php">Registra un nuevo registro</a>
+        <a href="index.php">Realizar un nuevo registro</a>
+        <br>
+        <a href="ShowDB.php">Qieres ver los demas registros da click aquí</a>
     </div>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/idioma.js"></script>

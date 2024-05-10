@@ -18,7 +18,12 @@ if (isset($_POST['delete'])){
         header('Location: deleteuser.php');
 
         ?>
-            <h3 class="success">Tu informacion ha sido enviada</h3>
+            <div  class="success">
+                <h3>Tu informacion ha sido eliminada</h3>
+                <br>
+                <a href="ShowDB.php">Qieres ver los demas registros da click aquí</a>
+            </div>
+            
         <?php
 
     }else{

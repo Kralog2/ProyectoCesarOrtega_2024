@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="StyleCuestionary.css">
 </head>
 <body>
+<nav  class="menu">
+    <a href="../index.php">Inicio</a>
+    <a href="index.php">Cuestionario</a>
+    <a href="deleteuser.php">Eliminar registro</a>
+    <a href="ShowDB.php">Ver registros</a>
+</nav>
     <div class="translate">
         <a href="#" id="idioma" class="idioma">
             <img src="../recursos/banderas/mexico.png" alt="icono de bandera">
@@ -121,6 +127,8 @@
         <a href="../index.php">Regresar a la pagina principal</a>
         <br><br>
         <a href="deleteuser.php">Elimina tu registro aquí</a>
+        <br>
+        <a href="ShowDB.php">Qieres ver los demas registros da click aquí</a>
     </div>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
